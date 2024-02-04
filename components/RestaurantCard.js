@@ -14,7 +14,9 @@ import { useNavigation } from "@react-navigation/native";
 export default function RestaurantCard({ item }) {
   const navigation = useNavigation();
   return (
-    <TouchableWithoutFeedback onPress={() => navigation.navigate("Restaurant")}>
+    <TouchableWithoutFeedback
+      onPress={() => navigation.navigate("Restaurant", item)}
+    >
       <View style={styles.shadow} className="mb-2 mr-6 bg-white rounded-3xl">
         <Image className="h-36 w-64 rounded-t-3xl" source={item.image} />
         <View className="px-3 pb-4 space-y-2">
@@ -55,5 +57,12 @@ export const styles = StyleSheet.create({
     shadowRadius: 7,
 
     elevation: 6,
+  },
+  shadowBlack: {
+    shadowColor: "#000",
+    shadowOpacity: 0.2,
+    shadowRadius: 7,
+
+    elevation: 3,
   },
 });
