@@ -2168,6 +2168,11 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
+"@types/geojson@^7946.0.13":
+  version "7946.0.14"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.14.tgz#319b63ad6df705ee2a65a73ef042c8271e696613"
+  integrity sha512-WCfD5Ht3ZesJUsONdhvm84dmzWOiOzOAqOncN0++w0lBw1o8OuDNJF2McvvCef/yBqb/HYRahp1BYtODFQ8bRg==
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.6.tgz#7739c232a1fee9b4d3ce8985f314c0c6d33549d7"
@@ -5670,6 +5675,13 @@ react-native-feather@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/react-native-feather/-/react-native-feather-1.1.2.tgz#da055f8bd56db74c1b5009dc470536a11ef1d5c4"
   integrity sha512-qBc0+XegKkX4JV6ykgScasguEV3RdlbYp9IrCMnbozngOgJ7vi76pyRpb+dnZ1AZVkYsbYnpdA9JXeP7EJbMCA==
+
+react-native-maps@^1.10.1:
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-1.10.1.tgz#ced65efb38aecdab7be46a47417f1018fd42959e"
+  integrity sha512-EFRW4Zfy1xAfm2/J2XStS+yPf0NtRxwMpyfhwVZb3P3Nf3Id6mI7ZUuQU2U9ymaX0BIZJpdD+Qn1LGhp8PIVsw==
+  dependencies:
+    "@types/geojson" "^7946.0.13"
 
 react-native-safe-area-context@4.8.2:
   version "4.8.2"
